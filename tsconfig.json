@@ -1,0 +1,23 @@
+{
+  // Opções do compilador
+  "compilerOptions": {
+    // Versão do JavaScript gerado
+    "target": "ESNext",
+    // Gera source map ao compilar
+    "sourceMap": true,
+    // Permite importar arquivos JavaScript
+    "allowJs": true,
+    // Remove os comentários
+    "removeComments": true,
+    // Modo estrito (inclui outras opções)
+    "strict": true,
+    // Indica a possibilidade de retorno undefined
+    "noImplicitReturns": true,
+    // Diretórios dos arquivos compilados
+    "outDir": "dist"
+  },
+  // Compila o que estiver na pasta src
+  "include": ["src"],
+  // Não compila o que estiver na pasta node_modules
+  "exclude": ["node_modules"]
+}
